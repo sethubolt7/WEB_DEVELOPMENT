@@ -1,0 +1,115 @@
+body {
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-right: 5em;
+    margin-left: 5em;
+    max-width: 100%;
+
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+}
+
+.pricing-plan {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+
+.pricing-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pricing-header {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    color: #016ff9;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    font-weight: 600;
+}
+
+li {
+    border-top: 1px solid rgb(233, 224, 224);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pricing-price {
+    border-top: 1px solid rgb(233, 224, 224);
+    font-weight: 900;
+    font-size: 35px;
+    display: block;
+    color: #016ff9
+}
+
+.pricing-button {
+    display: inline-block;
+    border: #60a9ff solid 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0.5em;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.pricing-button:hover {
+    background-color: rgba(166, 166, 255, 0.557);
+}
+
+.pricing-button-is-featured {
+    display: inline-block;
+    border: #60a9ff solid 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0.5em;
+    text-decoration: none;
+    transition: background-color 0.5s ease-in-out;
+    background-color: #60a9ff;
+    color: aliceblue;
+}
+
+.pricing-button-is-featured:hover {
+    background-color: #3d71ad;
+}
+
+body div:nth-of-type(2) {
+    border-left: 1px solid rgb(233, 224, 224);
+    border-right: 1px solid rgb(233, 224, 224);
+}
